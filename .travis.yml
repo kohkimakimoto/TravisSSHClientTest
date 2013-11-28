@@ -3,4 +3,4 @@ install:
  - sudo apt-get install -qq libssh2-1-dev openssh-client openssh-server
 
 script:
-    - sh test.sh
+    - sh setup_ssh_server.sh
